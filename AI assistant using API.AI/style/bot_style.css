@@ -1,0 +1,90 @@
+body {
+    font:12px arial;
+    color: #222;
+    text-align:center;
+    padding:35px; }
+  
+  
+#wrapper {
+	position: absolute;
+	right: 0;
+  bottom: -50%;
+  margin:0 auto;
+  padding-bottom:25px;
+  width:300px;
+  border:1px solid #3F7F93;
+	background-color: #192837;
+	z-index: 9999;
+  -webkit-transition: all 0.2s ease-in;
+}
+
+#wrapper.clicked{
+    margin-left:500px;
+    transform : translateY(-85%);
+    -webkit-transition: all 0.7s ease-in;
+ }
+
+  
+#chatbox {
+    background-color: #070F24;
+    border: 1px solid #3F7F93;
+    color: #748671;
+    padding: 1em;
+	  height: 200px;
+    overflow: auto;
+	  text-align: left;
+  }
+
+  
+#usermsg {
+      background-color: #126077;
+      border: 1px solid #3F7F93;
+      color: #A6CAE6;
+      font-family: "Titillium Web";
+      font-size: 15px;
+      line-height: 30px;
+      padding: 0 0.75em;
+      width: 100%;
+      -webkit-transition: all 0.35s ease-in;	
+	  }
+  
+#send {
+      background-color: #126178;
+      border: 1px solid #549EAF;
+      color: #549EAF;
+      cursor: pointer;
+      display: inline-block;
+      font-family: "Titillium Web";
+      font-size: 15px;
+      line-height: 30px;
+	  width: 40%;
+      padding: 0 0.75em;
+      text-align: center;
+      text-transform: uppercase;
+      -webkit-transition: all 0.35s ease-in;
+    }
+	
+#clear {
+      background-color: #126178;
+      border: 1px solid #549EAF;
+      color: #549EAF;
+      cursor: pointer;
+      display: inline-block;
+      font-family: "Titillium Web";
+      font-size: 15px;
+      line-height: 30px;
+	  width: 40%;
+      padding: 0 0.75em;
+	  margin: 10px;
+	  margin-bottom: 0;
+      text-align: center;
+      text-transform: uppercase;
+      -webkit-transition: all 0.35s ease-in;
+    }
+
+#top { 
+	  font-family: "Titillium Web";
+	  font-size: 15px;
+	  text-align: center; 
+	  color: white;
+	}
